@@ -1,0 +1,44 @@
+# Ignore virtual environment directories
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore Python cache files
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore database files
+*.sqlite3
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Include important project files
+!.gitignore
+!README.md
+!requirements.txt
+!lib/
+!scripts/
+!system/
+!system/blog/
+!system/blog/templates/
+!system/blog/*.py
+
+# Exclude files or directories under system/blog that should not be tracked
+system/blog/db.sqlite3
+
+# Optionally include any other specific files you want to track
